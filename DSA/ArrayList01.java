@@ -44,6 +44,7 @@ public class ArrayList01 {
         //sorting--->
         Collections.sort(list);
         System.out.println(list);
+        
 
 
 
