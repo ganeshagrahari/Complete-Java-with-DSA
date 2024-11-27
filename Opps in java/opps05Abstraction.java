@@ -1,32 +1,48 @@
-abstract class Animal{
+// Define an abstract class named Animal
+abstract class Animal {
+    // Abstract method walk, which must be implemented by subclasses
     abstract void walk();
-    public void eat(){
+
+    // Concrete method eat, which can be used by all subclasses
+    public void eat() {
         System.out.println("Animal eats!");
     }
-    Animal(){
+
+    // Constructor for Animal class
+    Animal() {
         System.out.println("You are creating a new animal!");
     }
 }
-class Horse extends Animal{
-    Horse(){
+
+// Define a subclass of Animal named Horse
+class Horse extends Animal {
+    // Constructor for Horse class
+    Horse() {
         System.out.println("Created a horse!");
     }
-    public void walk(){
+
+    // Implementation of the abstract method walk
+    public void walk() {
         System.out.println("Walks on four legs!");
     }
 }
-class chicken extends Animal{
-    
-    public void walk(){
-        System.out.println("walks on two legs!!");
+
+// Define another subclass of Animal named Chicken
+class Chicken extends Animal {
+    // Implementation of the abstract method walk
+    public void walk() {
+        System.out.println("Walks on two legs!!");
     }
 }
+
+// Main class to test the functionality
 public class opps05Abstraction {
     public static void main(String[] args) {
-        Horse horse= new Horse();
+        // Create an instance of Horse
+        Horse horse = new Horse();
+        // Call the walk method on the Horse instance
         horse.walk();
+        // Call the eat method on the Horse instance
         horse.eat();
-        
-        
     }
 }
