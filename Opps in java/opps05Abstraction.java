@@ -38,11 +38,16 @@ class Chicken extends Animal {
 // Main class to test the functionality
 public class opps05Abstraction {
     public static void main(String[] args) {
-        // Create an instance of Horse
+        // Create an instance of Horse and chicken 
+
         Horse horse = new Horse();
+        Chicken chicken =new Chicken();
         // Call the walk method on the Horse instance
         horse.walk();
+        chicken.walk();
         // Call the eat method on the Horse instance
         horse.eat();
+        chicken.eat();
+        //Call the 
     }
 }
