@@ -1,2 +1,0 @@
-Exception Handling: Exception Handling is a mechanism in java
-to handle runtime erros, ensuring the program runs smoothly without any abrupt termination.
