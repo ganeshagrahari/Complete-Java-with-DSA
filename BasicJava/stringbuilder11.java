@@ -2,6 +2,8 @@ public class stringbuilder11 {
     public static void main(String[] args) {
         StringBuilder sb = new StringBuilder("hello");
         System.out.println(sb);
+        sb.append("world");
+        System.out.println(sb);
 
         //System.out.println(sb.charAt(0));
 
@@ -25,7 +27,7 @@ public class stringbuilder11 {
 
         //q----->reverse the string------------------------->
 
-        for(int i =0; i<sb.length()/2;i++){
+        /*for(int i =0; i<sb.length()/2;i++){
             int front = i;
             int back =sb.length()-1-i;
 
@@ -37,5 +39,7 @@ public class stringbuilder11 {
         }
         System.out.println(sb);
 
-    }
+    }*/
+    
+}
 }

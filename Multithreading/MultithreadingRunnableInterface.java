@@ -14,6 +14,7 @@ class MyThreadRunnable2 implements Runnable {
     }
 }
 
+
 public class MultithreadingRunnableInterface {
     public static void main(String args[]) {
         MyThreadRunnable1 bullet1 = new MyThreadRunnable1();

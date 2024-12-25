@@ -9,6 +9,9 @@
 }*/
 class Example{
     int num;
+    
+
+    //constructor
 
     Example(int num){
         this.num=num;

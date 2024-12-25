@@ -32,6 +32,12 @@ public class MultithredingThreadClass {
     public static void main(String agras[]) {
         MyThraed1 t1 = new MyThraed1();
         MyThread2 t2 = new MyThread2();
+
+        /*
+         //setting priority
+            t1.setPriority(Thread.MIN_PRIORITY); //1
+            t2.setPriority(Thread.MAX_PRIORITY); //10
+         */
         t1.start();
         t2.start();
     }

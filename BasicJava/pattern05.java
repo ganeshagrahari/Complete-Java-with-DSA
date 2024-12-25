@@ -86,7 +86,7 @@ public class pattern05 {
         }*/
 
 
-        int n=5;
+        /*int n=5;
         int number=1;
         for(int i =1;i<=n;i++){
             for(int j=1;j<=i;j++){
@@ -94,7 +94,13 @@ public class pattern05 {
             number++;//number= number+1
             }
             System.out.println();
-        }
+        }*/
+
+        //ternary operator
+        int a = 10;
+        int b =20;
+        int max=(a>b)?a:b;
+        System.out.println(max);
 
 
         
